@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  SignUpViewController.h
 //  TextFieldValidations
 //
-//  Created by Vineet Mahali on 13/05/18.
+//  Created by Puneet Mahali on 14/05/18.
 //  Copyright © 2018 Puneet Mahali. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface SignUpViewController : UIViewController
 
 @end
-
