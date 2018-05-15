@@ -8,13 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		6802086720A879D200CE6BAC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6802086620A879D200CE6BAC /* AppDelegate.m */; };
-		6802086A20A879D200CE6BAC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6802086920A879D200CE6BAC /* ViewController.m */; };
 		6802086D20A879D300CE6BAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6802086B20A879D200CE6BAC /* Main.storyboard */; };
 		6802086F20A879D500CE6BAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6802086E20A879D500CE6BAC /* Assets.xcassets */; };
 		6802087220A879D500CE6BAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6802087020A879D500CE6BAC /* LaunchScreen.storyboard */; };
 		6802087520A879D500CE6BAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6802087420A879D500CE6BAC /* main.m */; };
 		6802087F20A879D500CE6BAC /* TextFieldValidationsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6802087E20A879D500CE6BAC /* TextFieldValidationsTests.m */; };
 		6802088A20A879D500CE6BAC /* TextFieldValidationsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6802088920A879D500CE6BAC /* TextFieldValidationsUITests.m */; };
+		F12D646F20A9EC5400F2D94C /* SignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F12D646E20A9EC5400F2D94C /* SignUpViewController.m */; };
+		F12D647220A9ED6400F2D94C /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F12D647120A9ED6400F2D94C /* SignInViewController.m */; };
+		F12D647520A9EF0B00F2D94C /* TextFieldValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = F12D647420A9EF0B00F2D94C /* TextFieldValidator.m */; };
+		F1594AF520AA35330070C9A7 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1594AF420AA35330070C9A7 /* HomeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +41,6 @@
 		6802086220A879D200CE6BAC /* TextFieldValidations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextFieldValidations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6802086520A879D200CE6BAC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6802086620A879D200CE6BAC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6802086820A879D200CE6BAC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6802086920A879D200CE6BAC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6802086C20A879D200CE6BAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6802086E20A879D500CE6BAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6802087120A879D500CE6BAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +52,14 @@
 		6802088520A879D500CE6BAC /* TextFieldValidationsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextFieldValidationsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6802088920A879D500CE6BAC /* TextFieldValidationsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextFieldValidationsUITests.m; sourceTree = "<group>"; };
 		6802088B20A879D500CE6BAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F12D646D20A9EC5400F2D94C /* SignUpViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignUpViewController.h; sourceTree = "<group>"; };
+		F12D646E20A9EC5400F2D94C /* SignUpViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignUpViewController.m; sourceTree = "<group>"; };
+		F12D647020A9ED6400F2D94C /* SignInViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignInViewController.h; sourceTree = "<group>"; };
+		F12D647120A9ED6400F2D94C /* SignInViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignInViewController.m; sourceTree = "<group>"; };
+		F12D647320A9EF0A00F2D94C /* TextFieldValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldValidator.h; sourceTree = "<group>"; };
+		F12D647420A9EF0B00F2D94C /* TextFieldValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFieldValidator.m; sourceTree = "<group>"; };
+		F1594AF320AA35320070C9A7 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		F1594AF420AA35330070C9A7 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +112,14 @@
 			children = (
 				6802086520A879D200CE6BAC /* AppDelegate.h */,
 				6802086620A879D200CE6BAC /* AppDelegate.m */,
-				6802086820A879D200CE6BAC /* ViewController.h */,
-				6802086920A879D200CE6BAC /* ViewController.m */,
+				F12D647020A9ED6400F2D94C /* SignInViewController.h */,
+				F12D647120A9ED6400F2D94C /* SignInViewController.m */,
+				F12D646D20A9EC5400F2D94C /* SignUpViewController.h */,
+				F12D646E20A9EC5400F2D94C /* SignUpViewController.m */,
+				F1594AF320AA35320070C9A7 /* HomeViewController.h */,
+				F1594AF420AA35330070C9A7 /* HomeViewController.m */,
+				F12D647320A9EF0A00F2D94C /* TextFieldValidator.h */,
+				F12D647420A9EF0B00F2D94C /* TextFieldValidator.m */,
 				6802086B20A879D200CE6BAC /* Main.storyboard */,
 				6802086E20A879D500CE6BAC /* Assets.xcassets */,
 				6802087020A879D500CE6BAC /* LaunchScreen.storyboard */,
@@ -262,9 +277,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6802086A20A879D200CE6BAC /* ViewController.m in Sources */,
+				F12D647220A9ED6400F2D94C /* SignInViewController.m in Sources */,
 				6802087520A879D500CE6BAC /* main.m in Sources */,
+				F12D646F20A9EC5400F2D94C /* SignUpViewController.m in Sources */,
 				6802086720A879D200CE6BAC /* AppDelegate.m in Sources */,
+				F12D647520A9EF0B00F2D94C /* TextFieldValidator.m in Sources */,
+				F1594AF520AA35330070C9A7 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

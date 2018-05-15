@@ -1,5 +1,5 @@
 //
-//  SignUpViewController.h
+//  HomeViewController.h
 //  TextFieldValidations
 //
 //  Created by Puneet Mahali on 14/05/18.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SignUpViewController : UIViewController
-
-- (IBAction)onSignUp:(id)sender;
+@interface HomeViewController : UIViewController
 
 @end
